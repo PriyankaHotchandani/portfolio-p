@@ -81,7 +81,7 @@ export default function More() {
       <div className="absolute bottom-40 left-10 w-[500px] h-[500px] bg-gradient-to-br from-purple-200/25 to-pink-200/20 rounded-full blur-3xl opacity-100 dark:opacity-0 transition-opacity" />
       <div className="absolute top-1/2 left-1/4 w-[450px] h-[450px] bg-gradient-to-br from-amber-200/20 to-orange-200/15 rounded-full blur-3xl opacity-100 dark:opacity-0 transition-opacity" />
 
-      <Container className="min-h-screen items-start justify-start md:pt-24 md:pb-12 pt-20 relative z-10">
+      <Container className="min-h-screen items-start justify-start md:pt-28 md:pb-12 pt-32 relative z-10">
         <a
           href="/"
           className="inline-flex items-center gap-2 text-sm font-semibold text-neutral-700 dark:text-neutral-300 

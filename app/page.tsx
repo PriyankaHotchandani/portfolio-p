@@ -19,7 +19,7 @@ export default function Home() {
       <div className="absolute bottom-40 left-10 w-[500px] h-[500px] bg-gradient-to-br from-purple-200/25 to-pink-200/20 rounded-full blur-3xl opacity-100 dark:opacity-0 transition-opacity" />
       <div className="absolute top-1/2 left-1/4 w-[450px] h-[450px] bg-gradient-to-br from-amber-200/20 to-orange-200/15 rounded-full blur-3xl opacity-100 dark:opacity-0 transition-opacity" />
 
-      <Container className="min-h-[200vh] items-start justify-start md:pt-24 md:pb-12 pt-20 relative z-10">
+      <Container className="min-h-[200vh] items-start justify-start md:pt-28 md:pb-12 pt-32 relative z-10">
         <div className="mb-16 space-y-6 relative">
           <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-neutral-900 dark:text-neutral-50 
                          bg-gradient-to-br from-neutral-900 to-neutral-700 dark:from-neutral-50 dark:to-neutral-300 

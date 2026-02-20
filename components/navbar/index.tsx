@@ -61,7 +61,7 @@ export function Navbar() {
         duration: 0.4,
         ease: [0.25, 0.1, 0.25, 1],
       }}
-      className="fixed inset-x-0 top-0 z-50 mx-auto max-w-6xl p-2.5 rounded-2xl flex items-center justify-between 
+      className="fixed inset-x-0 top-4 z-50 mx-auto max-w-6xl p-2.5 rounded-2xl flex items-center justify-between 
                    bg-white/80 dark:bg-neutral-900/80 backdrop-blur-xl backdrop-saturate-150
                    border border-neutral-200/50 dark:border-neutral-800/50
                    text-neutral-900 dark:text-neutral-100">
@@ -71,16 +71,18 @@ export function Navbar() {
         className="h-7 w-7 dark:invert transition-transform hover:scale-110 duration-300"
       />
       <div className="flex items-center gap-1">
-        {navItems.map((item, idx) => (
-          <Link key={idx}
-            onMouseEnter={() => setHovered(idx)}
-            onMouseLeave={() => setHovered(null)}
-            href={item.href}
-            className="px-3 py-1.5 text-sm relative text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors duration-200">
-            {hovered === idx && <motion.span layoutId="hovered-span" className="h-full w-full rounded-lg absolute inset-0 bg-neutral-100/80 dark:bg-neutral-800/80" />}
-            <span className="relative z-10 font-medium">{item.title}</span>
-          </Link>
-        ))}
+        <div className="hidden md:flex items-center gap-1">
+          {navItems.map((item, idx) => (
+            <Link key={idx}
+              onMouseEnter={() => setHovered(idx)}
+              onMouseLeave={() => setHovered(null)}
+              href={item.href}
+              className="px-3 py-1.5 text-sm relative text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors duration-200">
+              {hovered === idx && <motion.span layoutId="hovered-span" className="h-full w-full rounded-lg absolute inset-0 bg-neutral-100/80 dark:bg-neutral-800/80" />}
+              <span className="relative z-10 font-medium">{item.title}</span>
+            </Link>
+          ))}
+        </div>
 
         <button
           onClick={toggleTheme}
