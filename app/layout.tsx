@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 
-const inter = Inter({weight: ["400", "500", "600","700", "800", "900"], subsets: ["latin"]});
+const inter = Inter({ weight: ["400", "500", "600", "700", "800", "900"], subsets: ["latin"] });
 
 
 export const metadata: Metadata = {
@@ -34,10 +34,12 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.className} antialiased bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 transition-colors duration-300`}
+        className={`${inter.className} antialiased bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 transition-colors duration-500 relative`}
       >
         <Navbar />
-        {children}
+        <main className="relative z-10">
+          {children}
+        </main>
       </body>
     </html>
   );

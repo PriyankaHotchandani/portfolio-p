@@ -1,0 +1,77 @@
+[00:00:04.343] Server  LOG      ✓ Ready in 4s
+[00:00:13.460] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:41.121] Server  LOG      ✓ Compiled in 195ms
+[00:01:43.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:26.869] Server  LOG      ✓ Compiled in 36ms
+[00:02:30.780] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:12.217] Server  LOG      ✓ Compiled in 33ms
+[00:05:41.492] Server  LOG      ✓ Compiled in 150ms
+[00:05:56.549] Server  LOG      ✓ Compiled in 21ms
+[00:06:05.914] Server  LOG      ✓ Compiled in 141ms
+[00:06:14.660] Server  LOG      ✓ Compiled in 15ms
+[00:09:26.875] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:34.026] Server  LOG      ✓ Compiled in 38ms
+[00:13:10.022] Server  LOG      ✓ Compiled in 3ms
+[00:35:00.483] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:17.672] Server  LOG      ✓ Compiled in 73ms
+[00:38:47.118] Server  LOG      ✓ Compiled in 24ms
+[00:43:14.051] Server  LOG      ✓ Compiled in 53ms
+[00:43:52.365] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:01.572] Server  LOG      ✓ Compiled in 20ms
+[01:00:31.983] Server  LOG      ✓ Compiled in 146ms
+[01:01:12.047] Server  LOG      ✓ Compiled in 34ms
+[01:05:02.835] Server  LOG      ✓ Compiled in 50ms
+[01:05:31.398] Server  LOG      ✓ Compiled in 65ms
+[01:05:31.502] Browser ERROR   ./components/projects.tsx:213:19
+Parsing ecmascript source code failed
+  211 |                     </div>
+  212 |                   </motion.div>
+> 213 |                 ))}
+      |                   ^
+  214 |               </div>
+  215 |             </motion.div>
+  216 |           </AnimatePresence>
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/projects.tsx
+    ./app/page.tsx
+[01:05:31.502] Browser ERROR   ./components/projects.tsx:215:14
+Parsing ecmascript source code failed
+  213 |                 ))}
+  214 |               </div>
+> 215 |             </motion.div>
+      |              ^^^^^^^^^^^^
+  216 |           </AnimatePresence>
+  217 |         </div>
+  218 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/projects.tsx
+    ./app/page.tsx
+[01:05:49.823] Server  LOG      ✓ Compiled in 364ms
+[01:06:12.153] Server  LOG      ✓ Compiled in 43ms
+[01:07:02.621] Server  LOG      ✓ Compiled in 32ms
+[01:08:36.890] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:00.661] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:16:56.112] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:09.843] Server  LOG      ✓ Compiled in 74ms
+[01:31:37.266] Server  LOG      ✓ Compiled in 60ms
+[01:39:14.739] Server  LOG      ✓ Compiled in 127ms
+[01:42:08.322] Server  LOG      ✓ Compiled in 33ms
+[01:43:07.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:44:19.438] Server  LOG      ✓ Compiled in 67ms
+[01:45:45.891] Server  LOG      ✓ Compiled in 39ms
+[01:46:18.537] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:46:44.300] Server  LOG      ✓ Compiled in 85ms
+[01:46:59.515] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:07.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:35.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:47:37.604] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:48:05.606] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:48:07.663] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

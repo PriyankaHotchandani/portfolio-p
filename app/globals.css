@@ -4,38 +4,84 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-primary: var(--color-neutral-800);
-  --color-secondary: var(--color-neutral-500);
-  
-  --shadow-tasteful: 0 4px 6px -1px rgb(0 0 0 / 0.07), 
-                     0 2px 4px -2px rgb(0 0 0 / 0.05);
-  --shadow-tasteful-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 
-                        0 4px 6px -4px rgb(0 0 0 / 0.05);
+  --color-primary: var(--color-neutral-900);
+  --color-secondary: var(--color-neutral-600);
+  --color-accent: #6366f1;
+  --color-accent-hover: #4f46e5;
+
+  --shadow-elegant: 0 1px 3px 0 rgb(0 0 0 / 0.05),
+    0 1px 2px -1px rgb(0 0 0 / 0.05);
+  --shadow-elegant-md: 0 4px 6px -1px rgb(0 0 0 / 0.06),
+    0 2px 4px -2px rgb(0 0 0 / 0.06);
+  --shadow-elegant-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08),
+    0 4px 6px -4px rgb(0 0 0 / 0.06);
+  --shadow-elegant-xl: 0 20px 25px -5px rgb(0 0 0 / 0.08),
+    0 8px 10px -6px rgb(0 0 0 / 0.08);
+
+  --shadow-tasteful: 0 4px 6px -1px rgb(0 0 0 / 0.06),
+    0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-tasteful-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08),
+    0 4px 6px -4px rgb(0 0 0 / 0.05);
 }
-html, body {
+
+html,
+body {
   overflow-y: scroll;
 }
 
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
-display: none;
+  display: none;
 }
 
-html{
-    -ms-overflow-style:none;
-    scrollbar-width:none
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
-
 
 .dark {
-  --color-primary: var(--color-neutral-200);
+  --color-primary: var(--color-neutral-50);
   --color-secondary: var(--color-neutral-400);
-  
-  --shadow-tasteful: 0 4px 6px -1px rgb(0 0 0 / 0.3), 
-                     0 2px 4px -2px rgb(0 0 0 / 0.2);
-  --shadow-tasteful-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4), 
-                        0 4px 6px -4px rgb(0 0 0 / 0.25),
-                        0 0 0 1px rgb(255 255 255 / 0.05);
+  --color-accent: #818cf8;
+  --color-accent-hover: #a5b4fc;
+
+  --shadow-elegant: 0 1px 3px 0 rgb(0 0 0 / 0.4),
+    0 1px 2px -1px rgb(0 0 0 / 0.3);
+  --shadow-elegant-md: 0 4px 6px -1px rgb(0 0 0 / 0.5),
+    0 2px 4px -2px rgb(0 0 0 / 0.4);
+  --shadow-elegant-lg: 0 10px 15px -3px rgb(0 0 0 / 0.6),
+    0 4px 6px -4px rgb(0 0 0 / 0.5),
+    0 0 0 1px rgb(255 255 255 / 0.05);
+  --shadow-elegant-xl: 0 20px 25px -5px rgb(0 0 0 / 0.7),
+    0 8px 10px -6px rgb(0 0 0 / 0.6),
+    0 0 0 1px rgb(255 255 255 / 0.05);
+
+  --shadow-tasteful: 0 4px 6px -1px rgb(0 0 0 / 0.3),
+    0 2px 4px -2px rgb(0 0 0 / 0.2);
+  --shadow-tasteful-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4),
+    0 4px 6px -4px rgb(0 0 0 / 0.25),
+    0 0 0 1px rgb(255 255 255 / 0.05);
+}
+
+/* Subtle gradient backgrounds */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    radial-gradient(circle at 20% 50%, rgb(99 102 241 / 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgb(168 85 247 / 0.03) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dark body::before {
+  background:
+    radial-gradient(circle at 20% 50%, rgb(99 102 241 / 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgb(168 85 247 / 0.05) 0%, transparent 50%);
 }
 
 svg {

@@ -6,42 +6,50 @@ import { ChevronDown } from "lucide-react";
 export const Experience = () => {
   const workExperiences = [
     {
+      "company": "The Head Story",
+      "role": "Technical Product Consultant",
+      "duration": "Aug 2025 – Present",
+      "description": "Spearheaded 0-to-1 digital transformation for global B2B and B2C brands. Acted as a fractional Product Manager to digitize legacy offline revenue streams, bridging the gap between non-technical founders and technical execution to launch high-conversion digital MVPs.",
+      "highlights": [
+        "Authored comprehensive Product Requirement Documents (PRDs) and technical roadmaps for clients in European retail, healthcare, and media.",
+        "Architected custom digital storefronts and automated booking workflows, directly accelerating initial user acquisition.",
+        "Defined Go-To-Market (GTM) strategies for newly digitized services, establishing strong initial online market presence.",
+        "Managed cross-functional stakeholder expectations, ensuring product scopes aligned with budget constraints and business timelines."
+      ]
+    },
+    {
       "company": "JPMorgan Chase & Co.",
       "role": "Software Engineer",
-      "duration": "June 2023 – June 2025",
-      "description": "Owned full-cycle delivery for platforms supporting Corporate & Investment Banking. Translated complex business requirements from product owners and bankers into technical decisions, balancing speed, risk, and cost. Drove performance and reliability upgrades that reduced operational risk and increased system throughput. Coordinated across engineering, product, QA, and release to ensure predictable delivery within agile sprints. Measured success in business value delivered rather than code volume.",
+      "duration": "Aug 2023 – June 2025",
+      "description": "Drove the end-to-end product execution for global Corporate & Investment Banking platforms. Acted as the crucial bridge between business stakeholders and technical deployment, ensuring complex engineering features delivered measurable operational value for over 100+ global bankers.",
       "highlights": [
-        "Owned full-cycle delivery for Corporate & Investment Banking platforms",
-        "Translated business requirements into technical decisions balancing speed, risk, and cost",
-        "Drove performance upgrades reducing operational risk and increasing throughput",
-        "Coordinated cross-functionally across engineering, product, QA, and release teams",
-        "Delivered predictable outcomes within agile sprints, measuring business value over code volume"
+        "Led the technical delivery of high-impact fintech features for 'Dealworks', streamlining transaction workflows across NA, EMEA, and APAC.",
+        "Translated complex business requirements into scalable system architecture, effectively balancing technical debt with rapid agile delivery.",
+        "Optimized workflow automation pipelines, reducing manual bottlenecks and improving system response times by 25%.",
+        "Collaborated cross-functionally with QA, design, and release teams to align 2-week sprint cycles with core business OKRs."
       ]
     },
     {
       "company": "Indian Space Research Organisation (ISRO)",
-      "role": "Tech Research Intern",
+      "role": "Technical Project Intern",
       "duration": "Aug 2022 – May 2023",
-      "description": "Developed real-time rainfall nowcasting models to support meteorological alerts and warning systems. Evaluated model choices based on reliability and operational constraints rather than theoretical accuracy. Preprocessed radar imagery and crowdsourced weather data, automated the live deployment pipeline into MOSDAC, and contributed to a research publication grounded in operational outcomes instead of academic abstraction.",
+      "description": "Productized complex meteorological data into actionable, real-time alert systems for national weather monitoring. Prioritized operational constraints, system reliability, and end-user deployment over pure theoretical academic accuracy.",
       "highlights": [
-        "Developed real-time rainfall nowcasting models for meteorological alert systems",
-        "Evaluated models based on operational reliability over theoretical accuracy",
-        "Preprocessed radar imagery and crowdsourced weather data at scale",
-        "Automated live deployment pipeline into MOSDAC",
-        "Contributed to research publication focused on operational outcomes"
+        "Defined system requirements for a real-time rainfall nowcasting model using radar imagery and 5+ years of crowdsourced social data.",
+        "Managed the end-to-end deployment pipeline into ISRO’s MOSDAC system, creating automated visual dashboards for meteorologists.",
+        "Bridged the gap between algorithmic outputs and public-facing meteorological applications to ensure alert readiness.",
+        "Co-authored AI-driven weather prediction research, successfully translating technical complexity into practical, operational use cases."
       ]
     },
     {
       "company": "JPMorgan Chase & Co.",
       "role": "Software Engineering Intern",
-      "duration": "Jun 2022 – July 2022",
-      "description": "Engineered both frontend and backend modules for an internal search platform used by global banking teams. Improved performance and data-retrieval accuracy by redesigning indexing and caching logic with a cost-benefit lens rather than a purely technical one. Worked in 2-week sprints, collaborating with senior engineers to debug, refactor, and deploy features without blocking downstream workflows.",
+      "duration": "Jun 2022 – Aug 2022",
+      "description": "Engineered critical modules for an enterprise-wide search platform, utilizing a product mindset to prioritize features based on user impact, global team efficiency, and system performance constraints.",
       "highlights": [
-        "Engineered full-stack modules for internal search platform used by global banking teams",
-        "Improved performance and data-retrieval accuracy through indexing and caching redesign",
-        "Applied cost-benefit analysis to technical decisions",
-        "Delivered features in 2-week sprints without blocking downstream workflows",
-        "Collaborated with senior engineers on debugging, refactoring, and deployment"
+        "Redesigned indexing and caching logic for an internal global search tool, directly improving data-retrieval accuracy by 35%.",
+        "Applied a cost-benefit framework to technical decisions, ensuring infrastructure upgrades aligned with broader business efficiency goals.",
+        "Delivered full-stack features within strict agile sprints, optimizing downstream workflows for banking teams without causing deployment blockers."
       ]
     }
   ];
@@ -58,61 +66,70 @@ export const Experience = () => {
   };
 
   return (
-    <div id="experience" className='pt-12'>
-            <h2 className="text-xl md:text-2xl font-semibold mb-8">Experience</h2>
-      <p className='text-secondary max-w-lg text-sm md:text-sm mb-6'>
+    <div id="experience" className='pt-16 relative'>
+      <div className="mb-6">
+        <h2 className="text-2xl md:text-3xl font-bold mb-2 bg-gradient-to-r from-neutral-900 to-neutral-700 dark:from-neutral-50 dark:to-neutral-300 bg-clip-text text-transparent">Experience</h2>
+        <div className="h-1 w-20 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"></div>
+      </div>
+      <p className='text-neutral-600 dark:text-neutral-400 text-base md:text-lg mb-10 leading-relaxed'>
         I turn ambiguity into shipped products, bridging engineering execution with strategic impact.
       </p>
-      
-      <div className="grid md:grid-cols-2 gap-4 items-start">
+
+      <div className="grid md:grid-cols-2 gap-6 items-start">
         {workExperiences.map((work, idx) => (
           <motion.div
             key={idx}
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ 
-              duration: 0.3, 
+            transition={{
+              duration: 0.3,
               delay: idx * 0.08,
               ease: "easeOut"
             }}
             onMouseEnter={() => setHoveredCard(idx)}
             onMouseLeave={() => setHoveredCard(null)}
-            className="relative"
+            className="relative group"
           >
             <motion.div
               animate={{
-                boxShadow: hoveredCard === idx 
-                  ? "var(--shadow-tasteful-lg)" 
-                  : "var(--shadow-tasteful)"
+                boxShadow: hoveredCard === idx
+                  ? "var(--shadow-elegant-lg)"
+                  : "var(--shadow-elegant-md)",
+                scale: hoveredCard === idx ? 1.02 : 1
               }}
               transition={{
-                duration: 0.2,
-                ease: "linear"
+                duration: 0.3,
+                ease: [0.25, 0.1, 0.25, 1]
               }}
-              className="relative z-10 h-full p-5 rounded-xl bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800"
+              className="relative z-10 h-full p-6 rounded-2xl bg-white/80 dark:bg-neutral-900/80 
+                         backdrop-blur-sm border border-neutral-200/60 dark:border-neutral-800/60
+                         group-hover:border-neutral-400 dark:group-hover:border-neutral-600 transition-colors"
             >
-              <div className="flex flex-col gap-1 mb-3">
-                <h2 className="text-base md:text-lg font-semibold">
+              <div className="flex flex-col gap-1.5 mb-4">
+                <h2 className="text-lg md:text-xl font-bold text-neutral-900 dark:text-neutral-50">
                   {work.role}
                 </h2>
-                <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300">
+                <p className="text-sm font-semibold text-neutral-700 dark:text-neutral-300">
                   {work.company}
                 </p>
-                <p className="text-xs text-secondary">
+                <p className="text-xs text-neutral-600 dark:text-neutral-500 font-medium">
                   {work.duration}
                 </p>
               </div>
-              
+
               <button
                 onClick={() => toggleExpand(idx)}
-                className="w-full flex items-center justify-between text-left text-xs font-medium mb-3 text-secondary hover:text-primary transition-colors"
+                className="w-full flex items-center justify-between text-left text-sm font-semibold mb-4 
+                          text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-neutral-100 
+                          transition-all duration-200 group"
               >
                 <span>{expandedCard === idx ? 'Hide Details' : 'View Details'}</span>
                 <motion.div
                   animate={{ rotate: expandedCard === idx ? 180 : 0 }}
-                  transition={{ duration: 0.2 }}
+                  transition={{ duration: 0.3 }}
+                  className="group-hover:scale-110 transition-transform"
                 >
-                  <ChevronDown className="w-3.5 h-3.5" />
+                  <ChevronDown className="w-4 h-4" />
                 </motion.div>
               </button>
 
@@ -122,27 +139,27 @@ export const Experience = () => {
                     initial={{ height: 0, opacity: 0 }}
                     animate={{ height: "auto", opacity: 1 }}
                     exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.2 }}
+                    transition={{ duration: 0.3 }}
                     className="overflow-hidden"
                   >
-                    <p className="text-xs mb-3 leading-relaxed text-secondary">
+                    <p className="text-sm mb-4 leading-relaxed text-neutral-600 dark:text-neutral-400">
                       {work.description}
                     </p>
-                    
-                    <ul className="space-y-1.5">
+
+                    <ul className="space-y-2">
                       {work.highlights.map((point, pidx) => (
                         <motion.li
                           key={pidx}
                           initial={{ opacity: 0, x: -5 }}
                           animate={{ opacity: 1, x: 0 }}
                           transition={{
-                            duration: 0.2,
-                            delay: pidx * 0.03
+                            duration: 0.3,
+                            delay: pidx * 0.05
                           }}
-                          className="flex items-start gap-2 text-xs text-secondary"
+                          className="flex items-start gap-2.5 text-sm text-neutral-600 dark:text-neutral-400"
                         >
-                          <span className="text-neutral-400 dark:text-neutral-600 mt-0.5">•</span>
-                          <span>{point}</span>
+                          <span className="text-neutral-400 dark:text-neutral-600 mt-1 font-bold">•</span>
+                          <span className="leading-relaxed">{point}</span>
                         </motion.li>
                       ))}
                     </ul>
