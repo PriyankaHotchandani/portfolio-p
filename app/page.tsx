@@ -24,16 +24,16 @@ export default function Home() {
         <div className="mb-16 relative">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
             {/* Text content */}
-            <div className="flex-1 space-y-6">
+            <div className="flex-1 space-y-6 text-center md:text-left">
               <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-neutral-900 dark:text-neutral-50 
                              bg-gradient-to-br from-neutral-900 to-neutral-700 dark:from-neutral-50 dark:to-neutral-300 
                              bg-clip-text text-transparent leading-tight">
                 Priyanka Hotchandani
               </h1>
-              <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-lg leading-relaxed text-justify">
+              <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-lg leading-relaxed md:text-justify">
                 Product-minded engineer with CIB experience at JPMorgan, applying a technical foundation to solve business problems through data, systems thinking, and execution.
               </p>
-              <div className="flex items-center gap-4 pt-2">
+              <div className="flex items-center justify-center md:justify-start gap-4 pt-2">
                 <a
                   href="https://www.linkedin.com/in/priyanka-hotchandani/"
                   target="_blank"
