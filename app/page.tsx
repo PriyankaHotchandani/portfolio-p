@@ -90,12 +90,11 @@ export default function Home() {
             href="/more"
             className="group inline-flex items-center gap-2 text-base font-semibold 
                        px-8 py-4 rounded-xl
-                       bg-gradient-to-r from-indigo-500 to-purple-500
-                       hover:from-indigo-600 hover:to-purple-600
+                       bg-neutral-800 hover:bg-neutral-900 dark:bg-neutral-700 dark:hover:bg-neutral-600
                        text-white
                        transition-all duration-300 
-                       hover:scale-105 hover:shadow-xl hover:shadow-purple-500/25
-                       border-2 border-indigo-500 hover:border-indigo-600"
+                       hover:scale-105 hover:shadow-xl hover:shadow-neutral-500/25
+                       border-2 border-neutral-700 dark:border-neutral-600 hover:border-neutral-800 dark:hover:border-neutral-500"
           >
             <span>Know More About Me</span>
             <span className="inline-block group-hover:translate-x-2 transition-transform duration-300 text-lg">
