@@ -9,36 +9,36 @@ export const Experience = () => {
       "company": "The Head Story",
       "role": "Technical Product Consultant",
       "duration": "Aug 2025 – Present",
-      "description": "Spearheaded 0-to-1 digital transformation for global B2B and B2C brands. Acted as a fractional Product Manager to digitize legacy offline revenue streams, bridging the gap between non-technical founders and technical execution to launch high-conversion digital MVPs.",
+      "description": "Spearheaded 0 to 1 digital transformations for global B2B and B2C brands. Acted as a fractional Product Manager to digitize legacy offline revenue streams, bridging the gap between non technical founders and technical execution to launch high conversion digital MVPs.",
       "highlights": [
-        "Authored comprehensive Product Requirement Documents (PRDs) and technical roadmaps for clients in European retail, healthcare, and media.",
-        "Architected custom digital storefronts and automated booking workflows, directly accelerating initial user acquisition.",
-        "Defined Go-To-Market (GTM) strategies for newly digitized services, establishing strong initial online market presence.",
-        "Managed cross-functional stakeholder expectations, ensuring product scopes aligned with budget constraints and business timelines."
+        "Authored comprehensive Product Requirement Documents (PRDs) and directed full stack architecture for a multi geographical portfolio across Europe and India, generating an estimated $1.2M in aggregate client revenue.",
+        "Architected custom digital platforms integrating advanced analytics, reducing time to market by 28% and driving a 42% average increase in user conversion rates for international product launches.",
+        "Defined Go To Market (GTM) strategies and led technical pre sales, translating complex business drivers into automated workflows that boosted client operational efficiency by 38%.",
+        "Managed cross functional stakeholder expectations, ensuring product scopes aligned with budget constraints and business timelines while delivering scalable technical roadmaps."
       ]
     },
     {
       "company": "JPMorgan Chase & Co.",
-      "role": "Software Engineer",
+      "role": "Full Stack Developer, CIB",
       "duration": "Aug 2023 – June 2025",
-      "description": "Drove the end-to-end product execution for global Corporate & Investment Banking platforms. Acted as the crucial bridge between business stakeholders and technical deployment, ensuring complex engineering features delivered measurable operational value for over 100+ global bankers.",
+      "description": "Drove the end to end product execution for global Corporate & Investment Banking platforms. Acted as the crucial bridge between business stakeholders and technical deployment, ensuring complex engineering features delivered measurable operational value.",
       "highlights": [
-        "Led the technical delivery of high-impact fintech features for 'Dealworks', streamlining transaction workflows across NA, EMEA, and APAC.",
-        "Translated complex business requirements into scalable system architecture, effectively balancing technical debt with rapid agile delivery.",
-        "Optimized workflow automation pipelines, reducing manual bottlenecks and improving system response times by 25%.",
-        "Collaborated cross-functionally with QA, design, and release teams to align 2-week sprint cycles with core business OKRs."
+        "Engineered and scaled Dealworks, a core enterprise CRM platform utilized by 5,000+ corporate bankers across NA, EMEA, and APAC, facilitating the processing of $50B+ in annual global transaction volume.",
+        "Translated complex business requirements into scalable full stack architectures utilizing ReactJS, Java, SpringBoot, Oracle DB, and PostgreSQL.",
+        "Optimized workflow automation pipelines and database queries, slashing system latency by 22% and saving an estimated 11,500+ hours of manual processing time annually.",
+        "Collaborated with QA, design, and release teams to streamline system monitoring workflows with Splunk and Grafana, reducing production blocker resolution time by 46% and ensuring 99.99% platform uptime."
       ]
     },
     {
       "company": "Indian Space Research Organisation (ISRO)",
       "role": "Technical Project Intern",
       "duration": "Aug 2022 – May 2023",
-      "description": "Productized complex meteorological data into actionable, real-time alert systems for national weather monitoring. Prioritized operational constraints, system reliability, and end-user deployment over pure theoretical academic accuracy.",
+      "description": "Productized complex meteorological data into actionable, real time alert systems for national weather monitoring. Prioritized operational constraints, system reliability, and end user deployment over pure theoretical academic accuracy.",
       "highlights": [
-        "Defined system requirements for a real-time rainfall nowcasting model using radar imagery and 5+ years of crowdsourced social data.",
-        "Managed the end-to-end deployment pipeline into ISRO’s MOSDAC system, creating automated visual dashboards for meteorologists.",
-        "Bridged the gap between algorithmic outputs and public-facing meteorological applications to ensure alert readiness.",
-        "Co-authored AI-driven weather prediction research, successfully translating technical complexity into practical, operational use cases."
+        "Managed the deployment pipeline into the MOSDAC system, processing IMD meteorological inputs and 5 years of crowdsourced Twitter data to increase forecasting reliability by an estimated 27%.",
+        "Built data driven BI dashboards and nowcasting models from the ground up, improving operational decision making speed by 33% for internal data analytics teams.",
+        "Conducted rigorous technical scoping to successfully deploy 3 forecasting tools, which reduced manual data extraction efforts by 54%.",
+        "Co authored AI driven weather prediction research, successfully translating technical complexity into practical, operational use cases for meteorologists."
       ]
     },
     {
