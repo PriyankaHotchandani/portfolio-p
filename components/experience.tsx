@@ -75,7 +75,7 @@ export const Experience = () => {
         I turn ambiguity into shipped products, bridging engineering execution with strategic impact.
       </p>
 
-      <div className="grid md:grid-cols-2 gap-6 items-start">
+      <div className="grid md:grid-cols-2 gap-6 items-stretch">
         {workExperiences.map((work, idx) => (
           <motion.div
             key={idx}
@@ -88,7 +88,7 @@ export const Experience = () => {
             }}
             onMouseEnter={() => setHoveredCard(idx)}
             onMouseLeave={() => setHoveredCard(null)}
-            className="relative group"
+            className="relative group h-full"
           >
             <motion.div
               animate={{
@@ -101,15 +101,15 @@ export const Experience = () => {
                 duration: 0.3,
                 ease: [0.25, 0.1, 0.25, 1]
               }}
-              className="relative z-10 h-full p-6 rounded-2xl bg-white/80 dark:bg-neutral-900/80 
+              className={`relative z-10 flex flex-col p-4 rounded-2xl bg-white/80 dark:bg-neutral-900/80 
                          backdrop-blur-sm border border-neutral-200/60 dark:border-neutral-800/60
-                         group-hover:border-neutral-400 dark:group-hover:border-neutral-600 transition-colors"
+                         group-hover:border-neutral-400 dark:group-hover:border-neutral-600 transition-colors ${expandedCard === idx ? "h-auto" : "h-[220px]"}`}
             >
-              <div className="flex flex-col gap-1.5 mb-4">
-                <h2 className="text-lg md:text-xl font-bold text-neutral-900 dark:text-neutral-50">
+              <div className="flex flex-col gap-1.5 mb-2 h-[96px]">
+                <h2 className="text-lg md:text-xl font-bold text-neutral-900 dark:text-neutral-50 line-clamp-2">
                   {work.role}
                 </h2>
-                <p className="text-sm font-semibold text-neutral-700 dark:text-neutral-300">
+                <p className="text-sm font-semibold text-neutral-700 dark:text-neutral-300 line-clamp-2">
                   {work.company}
                 </p>
                 <p className="text-xs text-neutral-600 dark:text-neutral-500 font-medium">
@@ -119,9 +119,9 @@ export const Experience = () => {
 
               <button
                 onClick={() => toggleExpand(idx)}
-                className="w-full flex items-center justify-between text-left text-sm font-semibold mb-4 
+                className={`w-full flex items-center justify-between text-left text-sm font-semibold mt-auto 
                           text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-neutral-100 
-                          transition-all duration-200 group"
+                          transition-all duration-200 group ${expandedCard === idx ? "mb-4" : "mb-0"}`}
               >
                 <span>{expandedCard === idx ? 'Hide Details' : 'View Details'}</span>
                 <motion.div
