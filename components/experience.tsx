@@ -9,47 +9,47 @@ export const Experience = () => {
       "company": "The Head Story",
       "role": "Technical Product Consultant",
       "duration": "Aug 2025 – Present",
-      "description": "Spearheaded 0 to 1 digital transformations for global B2B and B2C brands. Acted as a fractional Product Manager to digitize legacy offline revenue streams, bridging the gap between non technical founders and technical execution to launch high conversion digital MVPs.",
+      "description": "Spearheaded 0-to-1 digital transformations for global B2B and B2C brands. Acted as a fractional Product Manager to digitize legacy offline revenue streams, bridging the gap between non-technical founders and technical execution to launch high-conversion digital MVPs.",
       "highlights": [
-        "Authored comprehensive Product Requirement Documents (PRDs) and directed full stack architecture for a multi geographical portfolio across Europe and India, generating an estimated $1.2M in aggregate client revenue.",
-        "Architected custom digital platforms integrating advanced analytics, reducing time to market by 28% and driving a 42% average increase in user conversion rates for international product launches.",
-        "Defined Go To Market (GTM) strategies and led technical pre sales, translating complex business drivers into automated workflows that boosted client operational efficiency by 38%.",
-        "Managed cross functional stakeholder expectations, ensuring product scopes aligned with budget constraints and business timelines while delivering scalable technical roadmaps."
+        "Authored comprehensive Product Requirement Documents (PRDs) and directed full-stack architecture for a multi-geographical portfolio across Europe and India, generating an estimated $1.2M in aggregate client revenue.",
+        "Architected custom digital platforms integrating advanced analytics, reducing time-to-market by 28% and driving a 42% average increase in user conversion rates for international product launches.",
+        "Defined Go-To-Market (GTM) strategies and led technical pre-sales, translating complex business drivers into automated workflows that boosted client operational efficiency by 38%.",
+        "Managed cross-functional stakeholder expectations, ensuring product scopes aligned with budget constraints and business timelines while delivering scalable technical roadmaps."
       ]
     },
     {
       "company": "JPMorgan Chase & Co.",
-      "role": "Full Stack Developer, CIB",
+      "role": "Full Stack Developer, Corporate & Investment Banking Technology",
       "duration": "Aug 2023 – June 2025",
       "description": "Drove the end to end product execution for global Corporate & Investment Banking platforms. Acted as the crucial bridge between business stakeholders and technical deployment, ensuring complex engineering features delivered measurable operational value.",
       "highlights": [
-        "Engineered and scaled Dealworks, a core enterprise CRM platform utilized by 5,000+ corporate bankers across NA, EMEA, and APAC, facilitating the processing of $50B+ in annual global transaction volume.",
-        "Translated complex business requirements into scalable full stack architectures utilizing ReactJS, Java, SpringBoot, Oracle DB, and PostgreSQL.",
-        "Optimized workflow automation pipelines and database queries, slashing system latency by 22% and saving an estimated 11,500+ hours of manual processing time annually.",
-        "Collaborated with QA, design, and release teams to streamline system monitoring workflows with Splunk and Grafana, reducing production blocker resolution time by 46% and ensuring 99.99% platform uptime."
+        "Engineered and scaled Dealworks, the core enterprise CRM platform used by ~4,200 corporate bankers across NA, EMEA, and APAC, processing $80B+ in annual global transaction volume.",
+        "Translated complex business requirements into scalable full-stack architectures utilizing ReactJS, Java, Spring Boot, Oracle DB, and PostgreSQL.",
+        "Led full-stack optimization initiatives across database and application layers, reducing critical path latency by 22% and delivering ~30,000 hours of annual productivity gains for bankers.",
+        "Collaborated with QA, design, and release teams to enhance API integrations and observability workflows (Splunk, Grafana, automated runbooks), cutting production blocker resolution time by 52% and achieving 99.99% platform uptime for global coverage and trading desks."
       ]
     },
     {
-      "company": "Indian Space Research Organisation (ISRO)",
+      "company": "Indian Space Research Organisation (Space Applications Center)",
       "role": "Technical Project Intern",
       "duration": "Aug 2022 – May 2023",
-      "description": "Productized complex meteorological data into actionable, real time alert systems for national weather monitoring. Prioritized operational constraints, system reliability, and end user deployment over pure theoretical academic accuracy.",
+      "description": "Productized complex meteorological data into actionable, real-time alert systems for national weather monitoring. Prioritized operational constraints, system reliability, and end-user deployment over pure theoretical academic accuracy.",
       "highlights": [
-        "Managed the deployment pipeline into the MOSDAC system, processing IMD meteorological inputs and 5 years of crowdsourced Twitter data to increase forecasting reliability by an estimated 27%.",
-        "Built data driven BI dashboards and nowcasting models from the ground up, improving operational decision making speed by 33% for internal data analytics teams.",
-        "Conducted rigorous technical scoping to successfully deploy 3 forecasting tools, which reduced manual data extraction efforts by 54%.",
-        "Co authored AI driven weather prediction research, successfully translating technical complexity into practical, operational use cases for meteorologists."
+        "Led product scoping and delivery of a crowdsourced nowcasting model under Dr. Bipasha Paul Shukla, integrating 5 years of geo-tagged social media data with IMD meteorological inputs into ISRO's MOSDAC operational platform.",
+        "Drove cross-functional stakeholder alignment between SAC's data analytics, meteorology, and IT teams, accelerating operational decision-making speed by 33% and reducing manual data extraction workflows by 54%.",
+        "Delivered a 27% improvement in extreme rainfall forecasting reliability (POD), enabling faster disaster preparedness response for government agencies across peninsular India; project cited as a flagship crowdsourced meteorology initiative at SAC.",
+        "Built data-driven BI dashboards from the ground up, translating technical complexity into practical deployment use cases for internal meteorology teams."
       ]
     },
     {
       "company": "JPMorgan Chase & Co.",
-      "role": "Software Engineering Intern",
+      "role": "Software Engineering Intern, Global Technology Infrastructure",
       "duration": "Jun 2022 – Aug 2022",
-      "description": "Engineered critical modules for an enterprise-wide search platform, utilizing a product mindset to prioritize features based on user impact, global team efficiency, and system performance constraints.",
+      "description": "Engineered mission-critical search functionality for an internal enterprise search platform used by 2,300+ investment bankers to locate deal documents, client data, and market research across global repositories. Prioritized features using a user-impact matrix, ensuring 100% of delivered work aligned with top business pain points.",
       "highlights": [
-        "Redesigned indexing and caching logic for an internal global search tool, directly improving data-retrieval accuracy by 35%.",
-        "Applied a cost-benefit framework to technical decisions, ensuring infrastructure upgrades aligned with broader business efficiency goals.",
-        "Delivered full-stack features within strict agile sprints, optimizing downstream workflows for banking teams without causing deployment blockers."
+        "Redesigned Elasticsearch indexing and Redis caching pipelines, increasing search precision from 68% to 92% (+35%) and cutting average query latency from 2.1 seconds to 0.8 seconds for 10,000+ daily queries; validated results via A/B testing across 150 beta users.",
+        "Conducted cost-benefit analysis of cloud-vs-on-prem infrastructure options; selected AWS Elasticsearch Service, reducing annual infrastructure costs by $18,000 while maintaining 99.9% SLA compliance.",
+        "Delivered 4 full-stack features (React UI + Java/Spring Boot API) within strict 2-week agile sprints, achieving 100% on-time delivery and zero critical (P1) deployment blockers across 8 consecutive sprints."
       ]
     }
   ];
