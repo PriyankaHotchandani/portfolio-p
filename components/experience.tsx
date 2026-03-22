@@ -9,47 +9,36 @@ export const Experience = () => {
       "company": "The Head Story",
       "role": "Technical Product Consultant",
       "duration": "Aug 2025 – Present",
-      "description": "Spearheaded 0-to-1 digital transformations for global B2B and B2C brands. Acted as a fractional Product Manager to digitize legacy offline revenue streams, bridging the gap between non-technical founders and technical execution to launch high-conversion digital MVPs.",
+      "description": "Lead end-to-end product strategy and delivery for a multi-geographical client portfolio spanning Retail, Healthcare, and Media across Europe and India. Partner directly with leadership teams to convert business goals into shipped digital products and measurable commercial outcomes.",
       "highlights": [
-        "Authored comprehensive Product Requirement Documents (PRDs) and directed full-stack architecture for a multi-geographical portfolio across Europe and India, generating an estimated $1.2M in aggregate client revenue.",
-        "Architected custom digital platforms integrating advanced analytics, reducing time-to-market by 28% and driving a 42% average increase in user conversion rates for international product launches.",
-        "Defined Go-To-Market (GTM) strategies and led technical pre-sales, translating complex business drivers into automated workflows that boosted client operational efficiency by 38%.",
-        "Managed cross-functional stakeholder expectations, ensuring product scopes aligned with budget constraints and business timelines while delivering scalable technical roadmaps."
+        "Directed product strategy, delivery planning, and execution governance across international client accounts, generating EUR 750K in aggregate client revenue through digital transformation initiatives.",
+        "Led pre-sales discovery, requirements scoping, and contract negotiations to secure enterprise engagements by translating complex business drivers into automation-first workflow solutions.",
+        "Defined product roadmaps and go-to-market strategies for international platform launches, driving an average 42% increase in user conversion across digital channels.",
+        "Partnered with cross-functional teams across engineering, design, and business operations to prioritize value-driven features and improve client operational efficiency by 35%."
       ]
     },
     {
       "company": "JPMorgan Chase & Co.",
-      "role": "Full Stack Developer, Corporate & Investment Banking Technology",
+      "role": "Full-Stack Developer, CIB Technology",
       "duration": "Aug 2023 – June 2025",
-      "description": "Drove the end to end product execution for global Corporate & Investment Banking platforms. Acted as the crucial bridge between business stakeholders and technical deployment, ensuring complex engineering features delivered measurable operational value.",
+      "description": "Drove product and engineering delivery for Dealworks, JPMorgan's core Corporate & Investment Banking platform. Collaborated with front-office, compliance, and engineering stakeholders to deliver global workflows that balanced regulatory rigor with business velocity.",
       "highlights": [
-        "Engineered and scaled Dealworks, the core enterprise CRM platform used by ~4,200 corporate bankers across NA, EMEA, and APAC, processing $80B+ in annual global transaction volume.",
-        "Translated complex business requirements into scalable full-stack architectures utilizing ReactJS, Java, Spring Boot, Oracle DB, and PostgreSQL.",
-        "Led full-stack optimization initiatives across database and application layers, reducing critical path latency by 22% and delivering ~30,000 hours of annual productivity gains for bankers.",
-        "Collaborated with QA, design, and release teams to enhance API integrations and observability workflows (Splunk, Grafana, automated runbooks), cutting production blocker resolution time by 52% and achieving 99.99% platform uptime for global coverage and trading desks."
+        "Led requirements analysis and delivery planning for Dealworks, used by 3,000+ corporate bankers across NA, EMEA, and APAC and supporting USD 50B in annual global deal volume.",
+        "Owned end-to-end delivery of Dodd-Frank regulatory capabilities, translating change requests into detailed system requirements and coordinating rollout with front-office stakeholders.",
+        "Delivered critical workflows in the Legal & Compliance (LnC) module to ensure deal-level adherence to internal controls and external regulatory frameworks across regions.",
+        "Bridged product intent and technical execution by aligning business, compliance, and engineering teams on release scope, acceptance criteria, and production readiness."
       ]
     },
     {
-      "company": "Indian Space Research Organisation (Space Applications Center)",
-      "role": "Technical Project Intern",
+      "company": "Indian Space Research Organisation (Space Applications Centre)",
+      "role": "Project Intern",
       "duration": "Aug 2022 – May 2023",
-      "description": "Productized complex meteorological data into actionable, real-time alert systems for national weather monitoring. Prioritized operational constraints, system reliability, and end-user deployment over pure theoretical academic accuracy.",
+      "description": "Led product scoping and delivery for a real-time nowcasting platform at the Space Applications Centre, converting research-grade meteorological models into operational alerting workflows for public-sector decision makers.",
       "highlights": [
-        "Led product scoping and delivery of a crowdsourced nowcasting model under Dr. Bipasha Paul Shukla, integrating 5 years of geo-tagged social media data with IMD meteorological inputs into ISRO's MOSDAC operational platform.",
-        "Drove cross-functional stakeholder alignment between SAC's data analytics, meteorology, and IT teams, accelerating operational decision-making speed by 33% and reducing manual data extraction workflows by 54%.",
-        "Delivered a 27% improvement in extreme rainfall forecasting reliability (POD), enabling faster disaster preparedness response for government agencies across peninsular India; project cited as a flagship crowdsourced meteorology initiative at SAC.",
-        "Built data-driven BI dashboards from the ground up, translating technical complexity into practical deployment use cases for internal meteorology teams."
-      ]
-    },
-    {
-      "company": "JPMorgan Chase & Co.",
-      "role": "Software Engineering Intern, Global Technology Infrastructure",
-      "duration": "Jun 2022 – Aug 2022",
-      "description": "Engineered mission-critical search functionality for an internal enterprise search platform used by 2,300+ investment bankers to locate deal documents, client data, and market research across global repositories. Prioritized features using a user-impact matrix, ensuring 100% of delivered work aligned with top business pain points.",
-      "highlights": [
-        "Redesigned Elasticsearch indexing and Redis caching pipelines, increasing search precision from 68% to 92% (+35%) and cutting average query latency from 2.1 seconds to 0.8 seconds for 10,000+ daily queries; validated results via A/B testing across 150 beta users.",
-        "Conducted cost-benefit analysis of cloud-vs-on-prem infrastructure options; selected AWS Elasticsearch Service, reducing annual infrastructure costs by $18,000 while maintaining 99.9% SLA compliance.",
-        "Delivered 4 full-stack features (React UI + Java/Spring Boot API) within strict 2-week agile sprints, achieving 100% on-time delivery and zero critical (P1) deployment blockers across 8 consecutive sprints."
+        "Scoped requirements under Dr. Bipasha Paul Shukla and delivered a severe-rainfall nowcasting platform that issues alerts for the next 60 minutes across 6 national cities.",
+        "Owned the data strategy roadmap, orchestrating automated ingestion of IMD radar imagery and 5 years of crowdsourced social media data for robust event classification pipelines.",
+        "Delivered 98.18% predictive accuracy for meteorological event classification by aligning data engineering, model validation, and alert-threshold design.",
+        "Integrated actionable alert frameworks into ISRO's MOSDAC ecosystem, accelerating real-time disaster preparedness for government agencies and emergency responders."
       ]
     }
   ];
@@ -72,7 +61,7 @@ export const Experience = () => {
         <div className="h-1 w-20 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"></div>
       </div>
       <p className='text-neutral-600 dark:text-neutral-400 text-base md:text-lg mb-10 leading-relaxed'>
-        I turn ambiguity into shipped products, bridging engineering execution with strategic impact.
+        I build products at the intersection of strategy, delivery, and measurable business impact.
       </p>
 
       <div className="grid md:grid-cols-2 gap-6 items-stretch">
