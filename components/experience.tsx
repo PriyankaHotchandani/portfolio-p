@@ -19,7 +19,7 @@ export const Experience = () => {
     },
     {
       "company": "JPMorgan Chase & Co.",
-      "role": "Full-Stack Developer, CIB Technology",
+      "role": "Full-Stack Developer, Corporate & Investment Banking (CIB Tech)",
       "duration": "Aug 2023 – June 2025",
       "description": "Drove product and engineering delivery for Dealworks, JPMorgan's core Corporate & Investment Banking platform. Collaborated with front-office, compliance, and engineering stakeholders to deliver global workflows that balanced regulatory rigor with business velocity.",
       "highlights": [
@@ -43,7 +43,7 @@ export const Experience = () => {
     },
     {
       "company": "JPMorgan Chase & Co.",
-      "role": "Software Engineering Intern, Global Technology Infrastructure",
+      "role": "Software Engineering Intern, Global Technology Infrastructure (GTI)",
       "duration": "Jun 2022 – Aug 2022",
       "description": "Built and refined front-end experiences for an internal inventory management platform undergoing a strategic revamp, translating evolving product expectations into usable and consistent UI workflows.",
       "highlights": [
@@ -108,10 +108,10 @@ export const Experience = () => {
             >
               <div className="flex flex-col gap-1.5 mb-2 h-[96px]">
                 <h2 className="text-lg md:text-xl font-bold text-neutral-900 dark:text-neutral-50 line-clamp-2">
-                  {work.role}
+                  {work.company}
                 </h2>
                 <p className="text-sm font-semibold text-neutral-700 dark:text-neutral-300 line-clamp-2">
-                  {work.company}
+                  {work.role}
                 </p>
                 <p className="text-xs text-neutral-600 dark:text-neutral-500 font-medium">
                   {work.duration}
