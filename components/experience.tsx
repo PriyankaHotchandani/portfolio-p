@@ -30,8 +30,8 @@ export const Experience = () => {
       ]
     },
     {
-      "company": "Indian Space Research Organisation (Space Applications Centre)",
-      "role": "Project Intern",
+      "company": "Indian Space Research Organisation",
+      "role": "Project Intern, Space Applications Centre",
       "duration": "Aug 2022 – May 2023",
       "description": "Led product scoping and delivery for a real-time nowcasting platform at the Space Applications Centre, converting research-grade meteorological models into operational alerting workflows for public-sector decision makers.",
       "highlights": [
@@ -39,6 +39,18 @@ export const Experience = () => {
         "Owned the data strategy roadmap, orchestrating automated ingestion of IMD radar imagery and 5 years of crowdsourced social media data for robust event classification pipelines.",
         "Delivered 98.18% predictive accuracy for meteorological event classification by aligning data engineering, model validation, and alert-threshold design.",
         "Integrated actionable alert frameworks into ISRO's MOSDAC ecosystem, accelerating real-time disaster preparedness for government agencies and emergency responders."
+      ]
+    },
+    {
+      "company": "JPMorgan Chase & Co.",
+      "role": "Software Engineering Intern, Global Technology Infrastructure",
+      "duration": "Jun 2022 – Aug 2022",
+      "description": "Built and refined front-end experiences for an internal inventory management platform undergoing a strategic revamp, translating evolving product expectations into usable and consistent UI workflows.",
+      "highlights": [
+        "Owned UI implementation for key inventory management journeys as the platform was being revamped, improving clarity and task completion across internal user workflows.",
+        "Partnered closely with the US product and engineering team to align on requirements, review iterative feedback, and ship updates across time zones.",
+        "Converted business and operational needs into reusable front-end components, helping standardize interaction patterns during the replatforming phase.",
+        "Delivered sprint-based enhancements with consistent handoffs to backend and QA teams, supporting reliable internal releases in a fast-moving roadmap."
       ]
     }
   ];
